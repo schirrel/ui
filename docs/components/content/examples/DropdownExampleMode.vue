@@ -1,11 +1,21 @@
 <script setup>
 const items = [
-  [{
-    label: 'Profile',
-    avatar: {
-      src: 'https://avatars.githubusercontent.com/u/739984?v=4'
+  [
+    {
+      label: 'Profile',
+      avatar: {
+        src: 'https://avatars.githubusercontent.com/u/739984?v=4'
+      }
     }
-  }]
+  ],
+  [
+    {
+      label: 'Google',
+      to: 'https://www.google.com/',
+      external: true,
+      target: '__blank'
+    }
+  ]
 ]
 </script>
 
